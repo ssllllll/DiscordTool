@@ -1,0 +1,2 @@
+# DiscordTool
+ez
