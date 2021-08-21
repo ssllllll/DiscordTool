@@ -2,7 +2,7 @@
 
 ## Open Source Discord Nuker Tool
 
-This is a discord tool made by me with ◤Joseթh◢#0727's help and a bit skid from ObsidianBreaker's tool (just the title)
+This is a discord tool mainly made by (3V1by)[https://github.com/3V1/EzNuke], me and ◤Joseթh◢#0727's help, and a bit skid from ObsidianBreaker's tool (just the title)
 
 ## How to use?
 
