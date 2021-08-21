@@ -22,7 +22,7 @@ def tittle():
     print(Fore.RED + "██║  ██║██║ ╚═══██╗██║  ██╗██║  ██║██╔══██╗██║  ██║     ██║   ██║  ██║██║  ██║██║        ██╔═══╝   ╚██╔╝")
     print(Fore.RED + "██████╔╝██║██████╔╝╚█████╔╝╚█████╔╝██║  ██║██████╔╝     ██║   ╚█████╔╝╚█████╔╝███████╗██╗██║        ██║")
     print(Fore.RED + "╚═════╝ ╚═╝╚═════╝  ╚════╝  ╚════╝ ╚═╝  ╚═╝╚═════╝      ╚═╝    ╚════╝  ╚════╝ ╚══════╝╚═╝╚═╝        ╚═╝")
-    print(Fore.RED + "                    ..: DiscordTool.py | Written by: SSL / SSLWasTaken :..{Fore.RESET}")
+    print(Fore.RED + "                    ..: DiscordTool.py | Written by: 3V1 and SSL / SSLWasTaken :..{Fore.RESET}")
 
 t_or_f = [True, False]
 
