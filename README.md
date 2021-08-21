@@ -6,12 +6,12 @@ This is a discord tool made by me with ◤Joseթh◢#0727's help and a bit skid 
 
 ## How to use?
 
-`-pip3 install colarama
+`-pip3 install colarama`
 
--pip3 install requests
+`-pip3 install requests`
 
--py Main.py
+`-py Main.py`
 
--Follow the indications` 
+`-Follow the indications` 
 
 (tomorrow all add more epic stuff)
