@@ -1,2 +1,3 @@
-colarama
+colorama
 requests
+webdriver
