@@ -16,13 +16,13 @@ from multiprocessing import current_process
 
 def tittle():
     print(Fore.RED + "                                                                                                          ")
-    print(Fore.RED + "██████╗ ██╗ ██████╗ █████╗  █████╗ ██████╗ ██████╗   ████████╗ █████╗  █████╗ ██╗        ██████╗ ██╗   ██╗")
-    print(Fore.RED + "██╔══██╗██║██╔════╝██╔══██╗██╔══██╗██╔══██╗██╔══██╗  ╚══██╔══╝██╔══██╗██╔══██╗██║        ██╔══██╗╚██╗ ██╔╝")
-    print(Fore.RED + "██║  ██║██║╚█████╗ ██║  ╚═╝██║  ██║██████╔╝██║  ██║     ██║   ██║  ██║██║  ██║██║        ██████╔╝ ╚████╔╝ ")
-    print(Fore.RED + "██║  ██║██║ ╚═══██╗██║  ██╗██║  ██║██╔══██╗██║  ██║     ██║   ██║  ██║██║  ██║██║        ██╔═══╝   ╚██╔╝")
-    print(Fore.RED + "██████╔╝██║██████╔╝╚█████╔╝╚█████╔╝██║  ██║██████╔╝     ██║   ╚█████╔╝╚█████╔╝███████╗██╗██║        ██║")
-    print(Fore.RED + "╚═════╝ ╚═╝╚═════╝  ╚════╝  ╚════╝ ╚═╝  ╚═╝╚═════╝      ╚═╝    ╚════╝  ╚════╝ ╚══════╝╚═╝╚═╝        ╚═╝")
-    print(Fore.RED + "                    ..: DiscordTool.py | Written by: 3V1 / SSLWasTaken :..{Fore.RESET}")
+    print(Fore.RED + "  ██████╗ ██╗ ██████╗ █████╗  █████╗ ██████╗ ██████╗   ████████╗ █████╗  █████╗ ██╗        ██████╗ ██╗   ██╗")
+    print(Fore.RED + "  ██╔══██╗██║██╔════╝██╔══██╗██╔══██╗██╔══██╗██╔══██╗  ╚══██╔══╝██╔══██╗██╔══██╗██║        ██╔══██╗╚██╗ ██╔╝")
+    print(Fore.RED + "  ██║  ██║██║╚█████╗ ██║  ╚═╝██║  ██║██████╔╝██║  ██║     ██║   ██║  ██║██║  ██║██║        ██████╔╝ ╚████╔╝ ")
+    print(Fore.RED + "  ██║  ██║██║ ╚═══██╗██║  ██╗██║  ██║██╔══██╗██║  ██║     ██║   ██║  ██║██║  ██║██║        ██╔═══╝   ╚██╔╝")
+    print(Fore.RED + "  ██████╔╝██║██████╔╝╚█████╔╝╚█████╔╝██║  ██║██████╔╝     ██║   ╚█████╔╝╚█████╔╝███████╗██╗██║        ██║")
+    print(Fore.RED + "  ╚═════╝ ╚═╝╚═════╝  ╚════╝  ╚════╝ ╚═╝  ╚═╝╚═════╝      ╚═╝    ╚════╝  ╚════╝ ╚══════╝╚═╝╚═╝        ╚═╝")
+    print(Fore.RED + "                            ..: DiscordTool.py | Written by: 3V1 / SSLWasTaken :..")
 
 t_or_f = [True, False]
 
@@ -242,6 +242,13 @@ def delete_personal_guilds(Token):
         )
         print(i["id"])
 
+def theme_lopper(token):
+    print('theme looping')
+    headers = {'Authorization': token}
+    modes = cycle(["light", "dark"])
+    while True:
+        setting = {'theme': next(modes)}
+        requests.patch("https://discord.com/api/v6/users/@me/settings", headers=headers, json=setting)
 
 options_list = {
 
@@ -263,6 +270,7 @@ options_list = {
     "15": spam_token_email,
     "16": ban_token,
     "17": delete_personal_guilds,
+    "18":theme_lopper,
 }
 
 
