@@ -327,5 +327,5 @@ if __name__ == "__main__":
             sys.exit()
 
 
-# THANKS 3V1 FOR THE ENTIRE CODE
+# THANKS 3V1 FOR THE ENTIRE CODE <3
 
