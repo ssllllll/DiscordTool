@@ -326,20 +326,6 @@ if __name__ == "__main__":
         except KeyboardInterrupt:
             sys.exit()
 
-#     © 2021 GitHub, Inc.
-#     Terms
-#     Privacy
-#     Security
-#     Status
-#     Docs
 
 # THANKS 3V1 FOR THE ENTIRE CODE
 
-#     Contact GitHub
-#     Pricing
-#     API
-#     Training
-#     Blog
-#     About
-
-# Loading complete
