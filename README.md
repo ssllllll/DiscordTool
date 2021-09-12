@@ -12,6 +12,4 @@ This is a discord tool made by me with 3V1 src code, almost everything by him, a
 
 `-Follow the indications` 
 
-(tomorrow all add more epic stuff)
-
 ![Captura](https://user-images.githubusercontent.com/86989232/132970631-675f03d3-76ca-4ab5-969c-8f28f519308d.PNG)
